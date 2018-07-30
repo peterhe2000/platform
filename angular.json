@@ -5,7 +5,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "example-app": {
-      "root": "example-app",
+      "root": "",
       "projectType": "application",
       "architect": {
         "build": {
@@ -19,12 +19,12 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "example-app/assets",
+                "input": "assets",
                 "output": "/assets"
               },
               {
                 "glob": "favicon.ico",
-                "input": "example-app",
+                "input": "favicon.ico",
                 "output": "/"
               }
             ],
